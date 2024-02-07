@@ -1,0 +1,45 @@
+body{
+    background-color: #E5E5FD;
+}
+.validate{
+   
+}
+p{
+    display: inline-block;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+    
+}
+label{
+    display: block;
+    font-size: 18px;
+    margin-bottom:-10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+input{
+    padding:8px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 10px;
+}
+h1{
+    position: relative;
+    right:5px;
+    text-decoration: underline dotted;
+}
+#fn,#ln,#email,#mobile{
+    border:1px solid red;
+}
+#submit{
+    background-color: royalblue;
+    color: white;
+    margin-top: 10px;
+
+    
+}

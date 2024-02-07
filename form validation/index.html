@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        
+        <form class="validate">
+            <h1>User Details</h1>
+            <label for="fn">First Name <span style="color: red;">*</span></label><br>
+            <input id="fn" placeholder="Enter First Name">
+            <br>
+            <label for="ln" >Last Name <span style="color: red;">*</span></label><br>
+            <input id="ln" placeholder="Enter Last Name">
+            <br>
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="dob">
+            <br>
+            <label for="mobile">Mobile No: <span style="color: red;">*</span></label><br>
+            <input id="mobile" placeholder="Mobile No" type="number">
+            <br>
+            <label for="email">Email Id: <span style="color: red;">*</span></label><br>
+            <input id="email" placeholder="Enter Email Id" type="email">
+            <br>
+            <label for="password">Password:</label><br>
+            <input id="password" placeholder="Password" type="password">
+            <br>
+            <label for="confirm-password">Confirm Password:</label><br>
+            <input id="confirm-password" placeholder="confirm Password" type="password"><br>
+            <input id="submit" type="submit" placeholder="submit" onclick="validate();">
+            
+            
+    
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
